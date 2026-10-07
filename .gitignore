@@ -1,0 +1,19 @@
+# build outputs (scripts/build_*.py, tests/run.py, scripts/render_gallery.sh)
+/build/
+# Blender backups and temporary files
+*.blend1
+*.blend2
+*.blend@
+# render intermediates
+*.exr
+*.npz
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+# OS / editors
+.DS_Store
+._*
+Thumbs.db
+.idea/
+.vscode/
