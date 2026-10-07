@@ -19,8 +19,8 @@ How it works: [docs/HOW_IT_WORKS.md](docs/HOW_IT_WORKS.md).
 ## Use it
 
 1. Download [`holo_foil.blend`](holo_foil.blend) (Blender 5.2+).
-2. In your file: **File > Append > holo_foil.blend > NodeTree > Diffraction Grating BSDF**, or drag it from the
-   Asset Browser.
+2. In your file: **File > Append > holo_foil.blend > NodeTree > Diffraction Grating BSDF**, or add the folder as an
+   asset library (Preferences > File Paths) and drag it from the Asset Browser.
 3. Plug **BSDF** into the Material Output. The mesh needs a UV map (the grooves follow V).
 
 <img src="docs/images/node_closeup.png" width="300" alt="The Diffraction Grating BSDF node">
